@@ -6,35 +6,35 @@ function MovisContextProvider({ children }) {
     const [movis, setMovis] = useState([
         {
             name: "Bulets9",
-            image: "/public/imeges/bulets 9.jpg",
+            image: "/imeges/bulets 9.jpg",
             description: "",
             rating: [],
             avrage:0
         },
         {
             name: "Absolution",
-            image: "/public/imeges/Absolution.jpg",
+            image: "/imeges/Absolution.jpg",
             description: "An aging gangster decides to retire from crime and reunite with his children. The underworld won't let him leave his past behind.",
             rating: [],
             avrage:0
         },
         {
             name: "HowtoSurviveWithoutMom",
-            image: "/public/imeges/HowtoSurviveWithoutMom.jpg",
+            image: "/imeges/HowtoSurviveWithoutMom.jpg",
             description: "",
             rating: [],
             avrage:0
         },
         {
             name: "ItEndsWithUs",
-            image: "/public/imeges/ItEndsWithUs.jpg",
+            image: "/imeges/ItEndsWithUs.jpg",
             description: "",
             rating: [],
             avrage:0
         },
         {
             name: "SevenBlessings",
-            image: "/public/imeges/SevenBlessings.jpg",
+            image: "/imeges/SevenBlessings.jpg",
             description: "",
             rating: [],
             avrage:0
