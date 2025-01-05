@@ -1,0 +1,168 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.header-container{
+
+
+
+  text-align: center;
+}
+
+.header-title p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content:space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.button-header:hover {
+  background-color: #21a1f1;
+}
+
+.button-header {
+  
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
+
+
+.movis-contaner { 
+  margin-top: 20px;
+
+}
+
+.movie-list{
+  display: flex; 
+  justify-content: space-around;
+  gap: 15px; 
+}
+
+
+.movie img {
+  height: auto;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.home-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.right-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  flex-grow: 1;
+}
+.right{
+  width: 150px;
+}
+
+.movie-list-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.movise-right img{
+height: auto;
+width: 100px;
+border-radius: 10px;
+}
+
+.rating-movie{
+  display: flex;
+  flex-direction: column;
+  width: 90vh;
+}
+.container{
+  width: 80vh;
+}
+
+.toTreeMovise{
+  cursor: pointer
+}
+.addingContainer{
+  width: auto;
+    border: 1px solid;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+.middleAdding{
+  gap: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.addButton{
+  border: 1px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 15px;
+
+}
+.description{
+  height: 180px;
+  text-align: center;
+  
+    text-align: center;
+    border-radius: 7px;
+    resize: none;
+    border: 1px solid;
+}
+.adding-inputs{
+  
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  
+}
+input::placeholder{
+  text-align: center;
+}
+input{
+  padding: 7px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.textAreaDescripton{
+  display: flex;
+}
